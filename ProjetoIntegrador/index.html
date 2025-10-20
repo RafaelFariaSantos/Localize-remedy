@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <aside class="lateralBar"></aside>
+    
+    <header id="iconContainer">
+        <img src="resources/localize-remedy-icon.png" alt="LocalizeRemedy Icon" id="localize-remedy-icon">
+    </header>
+    
+    <header class="title">LocalizeRemedy</header>
+    
+    <header class="horizontalBar">
+        <div id="filtroContainer">
+            <select id="filtroTipo">
+                <option value="">Todos os tipos</option>
+                <option value="Analgésico">Analgésico</option>
+                <option value="Suplemento">Suplemento</option>
+                <option value="Cardiovascular">Cardiovascular</option>
+                <option value="Antigripal">Antigripal</option>
+                <option value="Digestivo">Digestivo</option>
+            </select>
+            <button id="btnFiltrar">Filtrar</button>
+            <button id="btnLimpar">Limpar</button>
+        </div>
+    </header>
+
+    <div id="remediosContainer"></div>
+
+    <button id="topReturn">
+        <img src="resources/arrow.png" alt="Voltar ao topo" id="arrow-icon">
+    </button>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
+</html>

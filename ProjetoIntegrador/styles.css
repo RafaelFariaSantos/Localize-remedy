@@ -318,7 +318,6 @@ body {
     font-size: clamp(16px, 1.3vw, 18px);
 }
 
-/* Media Queries para telas menores */
 @media screen and (max-width: 1024px) {
     .lateralBar {
         width: 60px;
@@ -375,4 +374,5 @@ body {
         flex-wrap: wrap;
         gap: 10px;
     }
+
 }

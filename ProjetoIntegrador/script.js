@@ -1,4 +1,5 @@
 const API_URL = 'http://localhost:3000/api';
+
 const topReturnButton = document.getElementById("topReturn");
 const remediosContainer = document.getElementById("remediosContainer");
 const filtroTipo = document.getElementById("filtroTipo");
@@ -191,6 +192,7 @@ searchInput.addEventListener('input', () => {
         exibirRemedios(todosRemedios);
     }
 });
+
 
 
 carregarRemedios();
